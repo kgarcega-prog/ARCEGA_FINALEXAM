@@ -33,4 +33,5 @@ jobs:
 
     - name: Test Stage (Pytest with Coverage 85% Gate)
       run: |
-        pytest --cov=src/ --cov-fail-under=85
+        pytest --cov=src/ \
+          --cov-fail-under=85
