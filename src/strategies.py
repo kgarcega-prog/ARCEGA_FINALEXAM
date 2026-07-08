@@ -38,4 +38,3 @@ class ServiceFactory:
         if not target:
             raise ValueError(f"Unknown strategy type: {strategy_type}")
         return target()
-        
